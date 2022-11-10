@@ -1,0 +1,22 @@
+#include <iostream>
+
+int main() {
+  //ask for Colombian Pesos
+  double pesos;
+  std::cout << "Enter number of Colombian Pesos: ";
+  std::cin >> pesos;
+  //ask for Reais
+  double reais;
+  std:: cout << "Enter number of Reais: ";
+  std::cin >> reais;
+  //ask for Soles
+  double soles;
+  std::cout <<"Enter number of Soles: ";
+  std::cin >> soles;
+  //converts the money above to USD
+  double dollars = (0.04965 * pesos) + (0.20 * reais) + (0.26 * soles);
+  std::cout <<"You have " << dollars <<" in USD!";
+
+  
+  
+}
